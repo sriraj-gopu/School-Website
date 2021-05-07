@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-image: url("images/login.jpg");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.navbar .menu h1 a {
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+}
+
+.navbar .menu h1 a:hover {
+    cursor: pointer;
+}
+
+.navbar .menu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.navbar .menu ul {
+    display: flex;
+    cursor: pointer;
+    padding-left: 20%;
+    padding-top: 5px;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none;
+}
+
+
+.navbar .menu ul li {
+    padding: 0 20px;
+    text-transform: uppercase;
+    
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color : white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar .menu ul li a:hover {
+    cursor: pointer;
+    -webkit-text-stroke: 1px rgb(71, 71, 71);
+	-webkit-text-fill-color:  rgb(86, 71, 255);
+}
+
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #fff;
+    width: 285px;
+    margin: -140px 0 0 -182px;
+    padding: 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.form h2 {
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    line-height: 1;
+    color: #44c4e7;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-family: 'Teko', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.form input:focus {
+    color: #333;
+    border: 1px solid #44c4e7;
+}
+
+.form button {
+    cursor: pointer;
+    background: #44c4e7;
+    width: 50%;
+    margin-left: 23%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form button:hover {
+    background: #369cb8;
+}
+
+
+footer{
+    font-size: large;
+    font-weight: 700;
+    display:flex;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
